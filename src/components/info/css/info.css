@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+.info {
+    margin-top: 1rem;
+    width: 100%;
+}
+
+.info-container {
+    background-color: white;
+    width: 90%;
+    max-width: 720px;
+    margin-inline: auto;
+    border-radius: 1rem;
+    padding: 1.5rem;
+}
+
+.info-profile-container {
+    display: flex;
+    align-items: center;
+}
+
+.info-profile-info {
+    padding-left: 1rem;
+    font-size: 16px;
+    font-family: 'Space Mono', monospace;
+}
+
+.info-profile-info-name h1 {
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.info-profile-info-name p {
+    font-size: 13px;
+}
+
+.info-profile-info-name h1 {
+    color: #2b3442;
+}
+
+.info-profile-info-name p {
+    color: #0079ff;
+}
+
+.info-profile-info-joined p {
+    color: #4e6c9c;
+    font-size: 13px;
+}
+
+.info-bio {
+    font-family: 'Space Mono', monospace;
+    padding: 1rem 0;
+}
+
+.info-bio p {
+    color: #778fb3;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.info-logs {
+    margin-block: .5rem;
+    padding: 1rem 0;
+    font-family: 'Space Mono', monospace;
+    text-align: center;
+    background-color: #f6f8ff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: .5rem;
+}
+
+.info-logs h3 {
+    color: #5673a1;
+    font-size: 11px;
+    font-weight: 700;
+}
+
+.info-logs p {
+    color: #2b3442;
+    font-weight: 700;
+}
+
+.info-more {
+    padding: 1rem 0;
+    font-family: 'Space Mono', monospace;
+}
+
+.info-more p {
+    padding-left: .5rem;
+    color: #a4b3cc;
+    font-size: 13px;
+}
+
+.info-more img {
+    height: 20px;
+}
+
+.info-more-one-location,
+.info-more-one-link,
+.info-more-two-twitter,
+.info-more-two-building {
+    display: flex;
+    align-items: center;
+}
+
+.info-profile-pic img {
+    height: 70px;
+    width: 70px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.info-more-one-location,
+.info-more-one-link,
+.info-more-two-twitter,
+.info-more-two-building {
+    margin-block: 1rem;
+}
+
+@media (min-width:768px) {
+    .info-profile-pic img {
+        height: 117px;
+        width: 117px;
+    }
+    .info-profile-info-name h1 {
+        font-size: 26px;
+    }
+    .info-profile-info-name p {
+        font-size: 16px;
+    }
+    .info-profile-info-joined p {
+        font-size: 15px;
+    }
+    .info-bio p {
+        font-size: 15px;
+    }
+    .info-more {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .info-logs h3 {
+        font-size: 13px;
+    }
+    .info-logs p {
+        font-size: 22px;
+    }
+    .info-more p {
+        font-size: 15px;
+    }
+}
