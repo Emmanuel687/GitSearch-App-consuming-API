@@ -27,7 +27,7 @@ let Info = ({userdata})=>{
                                 <p>@{userdata.login}</p>
                             </div>
                             <div className="info-profile-info-joined">
-                                <p>Joined 30 Jul 2016</p>
+                                <p>Joined 25 Oct 2021</p>
                             </div>
                         </div>
                     </div>
