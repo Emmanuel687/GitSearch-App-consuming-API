@@ -7,7 +7,7 @@
     width: 90%;
     max-width: 720px;
     margin-inline: auto;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     border-radius: 1rem;
 }
 
@@ -41,7 +41,7 @@
 
 .search-form-image input::placeholder {
     font-family: 'Space Mono', monospace;
-    color: #9cadc8;
+    color: #6d81a1;
 }
 
 .search-form-image input:focus {
@@ -49,8 +49,8 @@
 }
 
 .search-form-submit button {
-    background-color: #0079ff;
-    border: 1px solid #0079ff;
+    background-color: #21b328;
+    border: 1px solid #ade6a8;
     color: white;
     height: 55px;
     font-family: 'Space Mono', monospace;
